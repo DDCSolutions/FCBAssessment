@@ -1,0 +1,27 @@
+
+<div class="success" [hidden]="!newEntrySuccess">New entry added successfully.</div>
+<div class="failed" [hidden]="!newEntryFailed" >An error occured while attempting to add a new record.</div>
+
+<form #personForm="ngForm" (ngSubmit)="onSubmit(personForm);" appIdentityRevealed>
+  <div *ngIf="model">
+    <div>
+      <label for="firstName">First Name:</label>
+      <input type="text" name="firstName" #firstName="ngModel" [(ngModel)]="model.firstName" placeholder="Enter first name" required />
+      <span class="validation" [hidden]="firstName.valid || firstName.pristine">✋ First Name is required</span>
+    </div>
+    <div>
+      <label for="lastName">Last Name:</label>
+      <input type="text" name="lastName" #lastName="ngModel" [(ngModel)]="model.lastName" placeholder="Enter last name" required />
+      <span class="validation" [hidden]="lastName.valid || lastName.pristine">✋ Last Name is required</span>
+    </div>
+    <div>
+      <label for="zip">Zip Code:</label>
+      <input type="text" name="zipCode" #zipCode="ngModel" [(ngModel)]="model.zipCode" maxlength="5" placeholder="5 Digit Zip Code" required />
+      <span class="validation" [hidden]="zipCode.valid || zipCode.pristine">✋ A 5 Digit Zip Code is required</span>
+    </div>
+
+    <label></label>
+    <button type="submit" [disabled]="!personForm.valid" id="cmdSubmit" (click)="addNew();">Add New</button>
+
+  </div>
+</form>

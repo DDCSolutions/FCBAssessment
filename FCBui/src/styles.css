@@ -1,0 +1,36 @@
+
+body {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+label {
+   display: inline-block;
+   font-size: 0.7em;
+   width: 100px;
+   text-align: right;
+   padding-right: 5px;
+}
+
+.validation {
+   font-size: 0.7em;
+   color: red;
+   padding-left: 5px;
+}
+
+.success, .failed {
+  color: #079b13;
+  border: solid 1px #079b13;
+
+  color: #ffffff;
+  background-color: #079b13;
+  border-radius: 5px;
+  padding: 2px 5px;
+  margin: 5px;
+  font-size: 0.7em;
+  transition: 0.5s all;
+}
+
+.failed {
+  color: red;
+  border-color: red;
+}
