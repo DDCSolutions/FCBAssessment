@@ -8,13 +8,10 @@ import { Person } from './person/person';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  /*public people?: WeatherForecast[];*/
   person = new Person();
 
   constructor(http: HttpClient) {
-    //http.get<WeatherForecast[]>('/weatherforecast').subscribe(result => {
-    //  this.people = result;
-    //}, error => console.error(error));
+
   }
 
   title = 'First Citizens Back Assessment';

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "P:\\Repos\\FCBAssessment\\FCBapi\\FCBapi.csproj": {}
+    "P:\\Workspace\\GIT\\FCBAssessment\\FCBapi\\FCBapi.csproj": {}
   },
   "projects": {
-    "P:\\Repos\\FCBAssessment\\FCBapi\\FCBapi.csproj": {
+    "P:\\Workspace\\GIT\\FCBAssessment\\FCBapi\\FCBapi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "P:\\Repos\\FCBAssessment\\FCBapi\\FCBapi.csproj",
+        "projectUniqueName": "P:\\Workspace\\GIT\\FCBAssessment\\FCBapi\\FCBapi.csproj",
         "projectName": "FCBapi",
-        "projectPath": "P:\\Repos\\FCBAssessment\\FCBapi\\FCBapi.csproj",
+        "projectPath": "P:\\Workspace\\GIT\\FCBAssessment\\FCBapi\\FCBapi.csproj",
         "packagesPath": "C:\\Users\\Dane\\.nuget\\packages\\",
-        "outputPath": "P:\\Repos\\FCBAssessment\\FCBapi\\obj\\",
+        "outputPath": "P:\\Workspace\\GIT\\FCBAssessment\\FCBapi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dane\\AppData\\Roaming\\NuGet\\NuGet.Config",

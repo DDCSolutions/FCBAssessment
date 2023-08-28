@@ -1,2 +1,3 @@
 P:\Repos\FCBAssessment\angularapp\obj\Debug\FCBui.esproj.CoreCompileInputs.cache
 P:\Repos\FCBAssessment\FCBui\obj\Debug\FCBui.esproj.CoreCompileInputs.cache
+P:\Workspace\GIT\FCBAssessment\FCBui\obj\Debug\FCBui.esproj.CoreCompileInputs.cache

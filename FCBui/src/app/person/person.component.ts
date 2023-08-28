@@ -8,9 +8,6 @@ import { PersonService } from './person.service';
   styleUrls: ['./person.component.css']
 })
 export class PersonComponent {
-  //model: Person('DANE', 'CUPP', 76108);
-  //model: Person | undefined;
-  //model = new Person('Dane', 'Cupp', 76108);
   model = new Person();
   newEntrySuccess = false;
   newEntryFailed = false;
