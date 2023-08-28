@@ -13,8 +13,6 @@
             LastName = lastName;
             FirstName = firstName;
             ZipCode = zipCode;
-
-
         }
     }
 }

@@ -10,7 +10,7 @@ namespace FCBapi.Controllers
 	public class PersonController : Controller
 	{
 
-		// GET: PersonController/Create
+		// POST: PersonController/Create
 		[HttpPost]
 		public JsonResult Create(PersonModel person)
 		{
@@ -31,8 +31,6 @@ namespace FCBapi.Controllers
 				}
 
 			}
-
-
 			return Json(result);
 		}
 	
